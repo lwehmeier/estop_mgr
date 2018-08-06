@@ -1,0 +1,7 @@
+<!-- Starts up everything needed to run the example listener/talker Python nodes. -->
+
+<launch>
+  <node pkg="estop_mgr" type="estop_mgr.py" name="estop_mgr">
+    <param name="rate" value="2"/>
+  </node>
+</launch>
